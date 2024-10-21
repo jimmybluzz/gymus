@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym Class</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fitness Gym</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Get Fit with Us!</h2>
+        <p>Join our gym classes to achieve your fitness goals!</p>
+        <a href="#schedule" class="btn">Check Schedule</a>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <h2>Class Schedule</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>6:00 AM - 7:00 AM</td>
+                <td>Yoga</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>5:00 PM - 6:00 PM</td>
+                <td>HIIT</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>7:00 AM - 8:00 AM</td>
+                <td>Crossfit</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Gym. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
